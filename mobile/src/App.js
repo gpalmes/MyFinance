@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import AppNavigator from './src/navigation/AppNavigator';
+import AppNavigator from './navigation/AppNavigator';
 import { StatusBar } from 'expo-status-bar';
 
 const App = () => {
