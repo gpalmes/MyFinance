@@ -1,6 +1,7 @@
 {
   "name": "mobile",
   "version": "1.0.0",
+  "homepage": "https://gpalmes.github.io/MyFinance",
   "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
