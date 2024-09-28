@@ -1,9 +1,9 @@
 // src/index.js
 import { AppRegistry } from 'react-native';
 import App from './App'; // Asegúrate de que la ruta sea correcta
-import { name as appName } from '../app.json';
-import appConfig from '../app.json'; // Si estás en src/
+import appConfig from './app.json'; // Importa el archivo JSON
 
+const appName = appConfig.name; // Obtén el nombre desde el archivo JSON
 
 AppRegistry.registerComponent(appName, () => App);
 AppRegistry.runApplication(appName, {
